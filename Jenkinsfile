@@ -17,3 +17,4 @@ pipeline {
     }
 
 }
+sendSplunkFile excludes: '', includes: '', publishFromSlave: true, sizeLimit: '100MB'
